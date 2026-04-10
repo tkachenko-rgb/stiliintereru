@@ -1,0 +1,351 @@
+/*Головна*/
+body {
+    background-color: #d2fff7;
+}
+header{
+    background-color: #56e9ce;
+    padding: 15px;
+    font-size: 30px;
+}
+h1{
+    color: #0a7561;
+    text-align: center;
+}
+nav {
+    background-color: #9afeec;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li a{
+    display: block;
+    color: #52b6a3;
+    padding: 20px 20px;
+}
+nav li a:hover{
+    background-color: #195f52;
+}
+img{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+section{
+    display: block;
+    color: #357569;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color:#5fa094;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #1b3b35;
+}
+/*Джапанді*/
+body.page-japandi{
+    background-color: #deebff;
+}
+header.page-japandi{
+    background-color: #5a8fdf;
+    padding: 15px;
+    font-size: 30px;
+}
+h1.page-japandi{
+    color: #b5d2ff;
+    text-align: center;
+}
+nav.page-japandi{
+    background-color: #a0c6ff;
+}
+nav ul.page-japandi{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li a.page-japandi{
+    display: block;
+    color: #314f7c;
+    padding: 20px 20px;
+}
+nav li a:hover.page-japandi{
+    background-color: #457ed5;
+}
+section.page-japandi{
+    display: block;
+    color: #31486b;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    h1{
+        color: #1a3763;
+    }
+}
+img.page-japandi{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+footer.page-japandi{
+    text-align: center;
+    padding: 15px;
+    background-color:#395a8b;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #88b1ef;
+}
+/*Ампір*/
+body.page-empire{
+    background-color: #fff6e9;
+}
+header.page-empire{
+    background-color: #856335;
+    padding: 15px;
+    font-size: 30px;
+}
+h1.page-empire{
+    color: #edb970;
+    text-align: center;
+}
+nav.page-empire{
+    background-color: #eeca98;
+}
+nav ul.page-empire{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li a.page-empire{
+    display: block;
+    color: #b9843a;
+    padding: 20px 20px;
+}
+nav li a:hover.page-empire{
+    background-color: #5d4524;
+}
+section.page-empire{
+    display: block;
+    color: #865d24;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    h1{
+        color: #9f763e;
+    }
+}
+img.page-empire{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+footer.page-empire{
+    text-align: center;
+    padding: 15px;
+    background-color:#71552e;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #dfb983;
+}
+/*Кітч*/
+body.page-kitsch{
+    background-color: #fadfff;
+}
+header.page-kitsch{
+    background-color: #792a87;
+    padding: 15px;
+    font-size: 30px;
+}
+h1.page-kitsch{
+    color: #e4a2f0;
+    text-align: center;
+}
+nav.page-kitsch{
+    background-color: #f3b3ff;
+}
+nav ul.page-kitsch{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li a.page-kitsch{
+    display: block;
+    color: #b142c5;
+    padding: 20px 20px;
+}
+nav li a:hover.page-kitsch{
+    background-color: #4d1d55;
+}
+section.page-kitsch{
+    display: block;
+    color: #793c83;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    h1{
+        color: #9128a3;
+    }
+}
+img.page-kitsch{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+footer.page-kitsch{
+    text-align: center;
+    padding: 15px;
+    background-color:#5f206a;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #f2a7ff;
+}
+/*Шеббі Шик*/
+body.page-shabby{
+    background-color: #c8f3ff;
+}
+header.page-shabby{
+    background-color: #175e74;
+    padding: 15px;
+    font-size: 30px;
+}
+h1.page-shabby{
+    color: #9feaff;
+    text-align: center;
+}
+nav.page-shabby{
+    background-color: #75cfe8;
+}
+nav ul.page-shabby{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li a.page-shabby{
+    display: block;
+    color: #2e7c92;
+    padding: 20px 20px;
+}
+nav li a:hover.page-shabby{
+    background-color: #063542;
+}
+section.page-shabby{
+    display: block;
+    color: #35798b;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    h1{
+        color: #2f7183;
+    }
+}
+img.page-shabby{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+footer.page-shabby{
+    text-align: center;
+    padding: 15px;
+    background-color:#065a71;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #9eeaff;
+}
+/*Вікторіанський*/
+body.page-victorian{
+    background-color: #ffd4d4;
+}
+header.page-victorian{
+    background-color: #6e2222;
+    padding: 15px;
+    font-size: 30px;
+}
+h1.page-victorian{
+    color: #ff9e9e;
+    text-align: center;
+}
+nav.page-victorian{
+    background-color: #f17777;
+}
+nav ul.page-victorian{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li a.page-victorian{
+    display: block;
+    color: #c23e3e;
+    padding: 20px 20px;
+}
+nav li a:hover.page-victorian{
+    background-color: #6c0f0f;
+}
+section.page-victorian{
+    display: block;
+    color: #883b3b;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    h1{
+        color: #8e3636;
+    }
+}
+img.page-victorian{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+footer.page-victorian{
+    text-align: center;
+    padding: 15px;
+    background-color:#551717;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #ed7878;
+}
